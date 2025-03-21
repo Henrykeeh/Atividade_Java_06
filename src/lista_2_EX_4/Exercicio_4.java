@@ -73,6 +73,9 @@ public class Exercicio_4 {
 
 			case 6:
 				outros = outros + 1;
+				
+			default:
+				System.out.println("Valor referente a Identidade de Gênero inválido!");
 			}
 			switch (pessoaDesenvolvedora) {
 			case 1:
@@ -86,6 +89,9 @@ public class Exercicio_4 {
 
 			case 4:
 				fullstack = fullstack + 1;
+				
+			default:
+				System.out.println("Valor referente a função inválido!");
 			}
 			System.out.println("Deseja continuar com a leitura de dados de mais um colaborador? (S/N)");
 			continuar = lerScanner.next().equalsIgnoreCase("s");
